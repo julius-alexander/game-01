@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "GBA",
+            "includePath": [
+                "~/Desktop/CodeBases/VSGBA/butano/butano/include/",
+                // "~/Desktop/CodeBases/VSGBA/butano/**",
+                "~/../opt/devkitpro/libtonc/include/",
+                "~/Desktop/CodeBases/VSGBA/game-01/build/"
+                
+            ],
+            "defines": [],
+            "compilerPath": "/../opt/devkitpro/devkitARM/bin/arm-none-eabi-gcc",
+            "intelliSenseMode": "macos-gcc-arm"
+        }
+    ],
+    "version": 4
+}
