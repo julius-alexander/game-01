@@ -1,0 +1,28 @@
+#include "bn_core.h" // Core libraries.
+#include "bn_log.h"
+#include "bn_sram.h"
+#include "bn_music.h"
+#include "bn_music_actions.h"
+#include "bn_sram.h"
+#include "bn_math.h"
+#include "bn_string.h"
+#include "bn_keypad.h"
+#include "bn_display.h"
+#include "bn_random.h"
+#include "bn_regular_bg_ptr.h"
+#include "bn_sprite_text_generator.h"
+#include "bn_sprite_animate_actions.h"
+#include "bn_sprite_palette_ptr.h"
+#include "bn_sound_items.h"
+#include "bn_music_items.h"
+#include "bn_blending.h"
+#include "bn_rect_window.h"
+#include "bn_regular_bg_ptr.h"
+#include "bn_camera_actions.h"
+#include "bn_timer.h"
+
+#include "bn_regular_bg_items_test_map_full.h"
+#include "bn_sprite_items_happy_guy.h"
+#include "bn_sprite_items_ninja.h"
+
+void movement_handler();

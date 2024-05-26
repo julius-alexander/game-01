@@ -1,5 +1,6 @@
 main.o: \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/src/main.cpp \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/include/movement.h \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_core.h \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_span.h \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_array.h \
@@ -102,6 +103,7 @@ main.o: \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_sprite_items_happy_guy.h \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_sprite_item.h \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_sprite_items_ninja.h
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/include/movement.h:
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_core.h:
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_span.h:
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_array.h:
