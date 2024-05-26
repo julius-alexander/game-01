@@ -5,7 +5,7 @@
 
 namespace bn::music_items
 {
-    constexpr inline music_item test(0);
+    constexpr inline music_item beats(0);
 }
 
 #endif

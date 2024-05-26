@@ -77,15 +77,31 @@ main.o: \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_sound_handle.h \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_music_items.h \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_music_item.h \
- /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_sprite_items_happy_guy.h \
- /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_sprite_item.h \
- /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_sprite_items_minion.h \
- /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_regular_bg_items_grass_background.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_blending.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_rect_window.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_fixed_rect.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_rect.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_fixed_size.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_fixed_size_fwd.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_fixed_rect_fwd.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_inside_window.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_window.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_top_left_fixed_rect.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_top_left_rect.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_top_left_fixed_rect_fwd.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_camera_actions.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_camera_ptr.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_value_template_actions.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_timer.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_regular_bg_items_test_map_full.h \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_regular_bg_item.h \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_bg_palette_item.h \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_regular_bg_map_item.h \
  /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_regular_bg_map_cell.h \
- /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_regular_bg_tiles_item.h
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_regular_bg_tiles_item.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_sprite_items_happy_guy.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_sprite_item.h \
+ /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_sprite_items_ninja.h
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_core.h:
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_span.h:
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_array.h:
@@ -163,12 +179,28 @@ main.o: \
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_sound_handle.h:
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_music_items.h:
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_music_item.h:
-/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_sprite_items_happy_guy.h:
-/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_sprite_item.h:
-/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_sprite_items_minion.h:
-/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_regular_bg_items_grass_background.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_blending.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_rect_window.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_fixed_rect.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_rect.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_fixed_size.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_fixed_size_fwd.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_fixed_rect_fwd.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_inside_window.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_window.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_top_left_fixed_rect.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_top_left_rect.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_top_left_fixed_rect_fwd.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_camera_actions.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_camera_ptr.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_value_template_actions.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_timer.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_regular_bg_items_test_map_full.h:
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_regular_bg_item.h:
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_bg_palette_item.h:
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_regular_bg_map_item.h:
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_regular_bg_map_cell.h:
 /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_regular_bg_tiles_item.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_sprite_items_happy_guy.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include/bn_sprite_item.h:
+/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/build/bn_sprite_items_ninja.h:

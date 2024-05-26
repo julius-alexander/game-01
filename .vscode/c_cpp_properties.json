@@ -1,17 +1,16 @@
 {
     "configurations": [
         {
-            "name": "GBA",
+            "name": "Butano",
             "includePath": [
-                "~/Desktop/CodeBases/VSGBA/butano/butano/include/",
-                // "~/Desktop/CodeBases/VSGBA/butano/**",
-                "~/../opt/devkitpro/libtonc/include/",
-                "~/Desktop/CodeBases/VSGBA/game-01/build/"
-                
+                "~/Desktop/CodeBases/VSGBA/butano/butano/include",
+                "${workspaceFolder}/**"
             ],
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++20",
             "defines": [],
-            "compilerPath": "/../opt/devkitpro/devkitARM/bin/arm-none-eabi-gcc",
-            "intelliSenseMode": "macos-gcc-arm"
+            "compilerPath": "/opt/devkitpro/devkitARM/bin/arm-none-eabi-gcc",
+            "intelliSenseMode": "linux-gcc-arm"
         }
     ],
     "version": 4

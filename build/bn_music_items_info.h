@@ -8,7 +8,7 @@
 namespace bn::music_items_info
 {
     constexpr inline pair<music_item, string_view> array[] = {
-        make_pair(music_item(0), string_view("test")),
+        make_pair(music_item(0), string_view("beats")),
     };
 
     constexpr inline span<const pair<music_item, string_view>> span(array);
