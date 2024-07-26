@@ -62,8 +62,8 @@ void movement_handler() {
         // the xor makes sure that the animation is only updated/reset
         // when a new direction is set, and the first direction is released
         // e.g., if left is held, and up is pressed (even repeatedly), the animation will not reset
-        if ( new_dir.data != last_dir.data && (new_dir.keys.up ^ new_dir.keys.down ^ new_dir.keys.left ^ new_dir.keys.right) ) {
-        // if ( new_dir.data != last_dir.data ) {
+        // if ( new_dir.data != last_dir.data && (new_dir.keys.up ^ new_dir.keys.down ^ new_dir.keys.left ^ new_dir.keys.right) ) {
+        if ( new_dir.data != last_dir.data ) {
             if (new_dir.keys.down && !bn::keypad::left_held() && !bn::keypad::right_held()) {
                 ninja_animate_action = bn::create_sprite_animate_action_forever(
                     ninja, 2, bn::sprite_items::ninja.tiles_item(), 0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
@@ -82,6 +82,27 @@ void movement_handler() {
             else if (new_dir.keys.right && !bn::keypad::up_held() && !bn::keypad::down_held()) {
                 ninja_animate_action = bn::create_sprite_animate_action_forever(
                     ninja, 2, bn::sprite_items::ninja.tiles_item(), 10, 11, 12, 13, 14, 15, 16, 17, 18, 19);
+                ninja.set_horizontal_flip(true);
+            }
+            // diagonal cases - default to up and down animations
+            else if (bn::keypad::up_held() && bn::keypad::left_held()) {
+                ninja_animate_action = bn::create_sprite_animate_action_forever(
+                    ninja, 2, bn::sprite_items::ninja.tiles_item(), 20, 21, 22, 23, 24, 25, 26, 27, 28, 29);
+                ninja.set_horizontal_flip(false);
+            }
+            else if (bn::keypad::up_held() && bn::keypad::right_held()) {
+                ninja_animate_action = bn::create_sprite_animate_action_forever(
+                    ninja, 2, bn::sprite_items::ninja.tiles_item(), 20, 21, 22, 23, 24, 25, 26, 27, 28, 29);
+                ninja.set_horizontal_flip(true);
+            }
+            else if (bn::keypad::down_held() && bn::keypad::left_held()) {
+                ninja_animate_action = bn::create_sprite_animate_action_forever(
+                    ninja, 2, bn::sprite_items::ninja.tiles_item(), 0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+                ninja.set_horizontal_flip(false);
+            }
+            else if (bn::keypad::down_held() && bn::keypad::right_held()) {
+                ninja_animate_action = bn::create_sprite_animate_action_forever(
+                    ninja, 2, bn::sprite_items::ninja.tiles_item(), 0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
                 ninja.set_horizontal_flip(true);
             }
             last_dir.data = new_dir.data;

@@ -2,10 +2,8 @@
 
 int main() {
     bn::core::init();
-    while (true)
-    {
+    while (true) {
         movement_handler();
         bn::core::update();
-    }
-    
+    }    
 }
