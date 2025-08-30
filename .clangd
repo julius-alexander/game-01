@@ -1,6 +1,0 @@
-CompileFlags:
-  CompilationDatabase: /Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/
-
-  Add: [-I/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/butano/butano/include",
-  "-I/Users/johngarzon-ferrer/Desktop/CodeBases/VSGBA/game-01/include/*" ]
-
