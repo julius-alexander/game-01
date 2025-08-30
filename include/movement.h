@@ -22,7 +22,7 @@
 #include "bn_timer.h"
 
 #include "bn_regular_bg_items_test_map_full.h"
-#include "bn_sprite_items_happy_guy.h"
-#include "bn_sprite_items_ninja.h"
+#include "bn_sprite_items_botw_link.h"
 
 void movement_handler();
+void nonMovementInputHandler();

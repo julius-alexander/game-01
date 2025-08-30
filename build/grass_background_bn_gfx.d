@@ -1,1 +1,0 @@
-grass_background_bn_gfx.o: grass_background_bn_gfx.s
