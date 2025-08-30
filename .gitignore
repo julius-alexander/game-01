@@ -1,19 +1,20 @@
-/.cache
-/.vscode
-/build
-/dmg_audio
+# OS / editor junk
+.DS_Store
+.vscode/
+compile_commands.json
 
-.clang-format
-.clangd
+# Build artifacts
+build/
+*.o
+*.elf
 
+# Cache
+.cache/
+
+# Game saves
+*.sav
 game-01.sav
 
-
-*.sav
-*.elf
-/build/*
-/.vscode/*
-*.o
-.DS_Store
+# Clang config (if you don’t want it in Git)
 .clang-format
-.gitignore
+.clangd
